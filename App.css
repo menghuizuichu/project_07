@@ -1,0 +1,50 @@
+
+/* App.css */
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .game-board {
+    text-align: center;
+  }
+  
+  .board-row {
+    display: flex;
+  }
+  
+  .square {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+  }
+  
+  .square:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .winner, .next-player {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .winner {
+    color: #ff6347;
+  }
+  
+  .next-player {
+    color: #2e8b57;
+  }
+  
